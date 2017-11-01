@@ -1,0 +1,98 @@
+.background-window {
+    -fx-background-color: #43A047;
+}
+.op-background {
+	-fx-background-color: #C8E6C9;
+}
+.app-icon{
+	-fx-image: url("math240.png");  /* eclipse: local default image location is in bin folder */
+	-fx-scale-x: 0.81;
+	-fx-scale-y: 0.81;
+}
+.h1 {
+	-fx-font-size: 60;
+	-fx-text-fill: white;
+	-fx-font-weight: 700;
+}
+.h2 {
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+}
+.h3 {
+	-fx-font-size: 30;
+	-fx-text-fill: white;
+	-fx-font-weight: 700;
+}
+.h4 {
+	-fx-font-size: 18;
+	-fx-text-fill: white;
+}
+.h5 {
+	-fx-font-size: 15;
+}
+.bold {
+	-fx-font-weight: bold;
+	-fx-font-size: 18;
+}
+.a-small{
+	-fx-font-size: 14;
+	-fx-underline: true;
+	-fx-text-fill: white;
+}
+.link:hover, .a-small:hover{
+	-fx-cursor: hand;
+}
+.large-button:hover, .small-button:hover, .small-mult-button:hover{
+	-fx-cursor: hand;
+	-fx-background-color: #2E7D32;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(three-pass-box, white, 4, 1, 0, 0);
+}
+.large-button{
+	-fx-font-size: 18;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(three-pass-box, gray, 5, 0, 1, 1);
+	-fx-background-color: white;
+	-fx-text-fill: #259b24;
+	-fx-pref-width: 120;
+}
+.small-button{
+	-fx-font-size: 16;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(three-pass-box, gray, 5, 0, 1, 1);
+	-fx-background-color: white;
+	-fx-text-fill: #259b24;
+}
+.small-mult-button{
+	-fx-font-size: 16;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(three-pass-box, gray, 5, 0, 1, 1);
+	-fx-background-color: white;
+	-fx-text-fill: #259b24;
+	-fx-pref-width: 150;	
+}
+.toggle-button{
+	-fx-font-size: 15;
+	-fx-font-weight: 700;
+	-fx-effect: dropshadow(three-pass-box, gray, 5, 0, 1, 1);
+	-fx-background-color: white;
+	-fx-text-fill: #259b24;
+	-fx-pref-width: 150;
+}
+.toggle-button:selected{
+	-fx-background-color: #2E7D32;
+	-fx-text-fill: white;	
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-radius: 2;
+}
+.toggle-button:hover{
+	-fx-background-color: #81C784;
+	-fx-cursor: hand;
+	-fx-text-fill: white;
+}
+.timer {
+	-fx-border-color: white;
+	-fx-border-width: 2;
+}
