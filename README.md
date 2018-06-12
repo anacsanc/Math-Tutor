@@ -1,6 +1,6 @@
 # Math Tutor
 
-An educational program that uses math quizzes to teach arithmetic concepts.
+An educational program that uses math quizzes to teach arithmetic concepts. Built in Java and SQL.
 
 ## Technologies Used
 
