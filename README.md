@@ -1,10 +1,11 @@
 # Math Tutor
 
-An educational program that uses math quizzes to teach arithmetic concepts. Built in Java and SQL.
+An educational program that uses math quizzes to teach arithmetic concepts. Built in Java and MySQL.
 
-## Technologies Used
+## Built With
 
-* JavaFX
+* JavaFX - UI
+* AWS - Server Host
 
 ## Contributors
 * [Ana Sanchez](https://github.com/anacsanchez)
